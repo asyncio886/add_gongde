@@ -5,7 +5,7 @@ module.exports = {
     entry: "./src/index.ts",
     mode: "production",
     output: {
-        path: path.join(__dirname, "./res")
+        path: path.join(__dirname, "./docs")
     },
     resolve:{
         extensions:['.ts']
