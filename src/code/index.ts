@@ -13,7 +13,9 @@ menu.onPositiveClick(()=>{
     audio.positiveClickDo();
     muyu.scaleSmall();
 });
+
 muyu.setImageClick(()=>{
+    audio.positiveClickDo();
     menu.addGongde();
 });
 

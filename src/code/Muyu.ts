@@ -36,6 +36,7 @@ class Muyu {
 
     public setImageClick(callback:()=>void):void{
         this.imgDom.onclick = ()=>{
+            this.scaleSmall();
             callback();
         }
     }
