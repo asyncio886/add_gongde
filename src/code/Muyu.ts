@@ -34,6 +34,11 @@ class Muyu {
         this.imgDom = img;
     }
 
+    public setImageClick(callback:()=>void):void{
+        this.imgDom.onclick = ()=>{
+            callback();
+        }
+    }
 }
 
 export default Muyu;

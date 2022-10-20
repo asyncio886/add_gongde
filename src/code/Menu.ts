@@ -26,7 +26,7 @@ class Menu {
     public onNegativeClick(callback: () => void): void {
         this.negativeCallback = callback;
     }
-    private addGongde(): void {
+    public addGongde(): void {
         this.gongdeCount += this.perValue;
         this.gongdeShow.innerText = this.gongdeCount + "";
         this.storeLocal();
