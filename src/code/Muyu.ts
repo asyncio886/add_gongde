@@ -9,9 +9,9 @@ class Muyu {
         if (this.preCount !== Muyu.noCount) {
             clearTimeout(this.preCount);
         }
-        this.imgDom.style.height = "350px";
+        this.imgDom.style.height = "250px";
         this.preCount = setTimeout(() => {
-            this.imgDom.style.height = "400px";
+            this.imgDom.style.height = "300px";
         }, Muyu.time) as unknown as number;
     }
 
@@ -19,9 +19,9 @@ class Muyu {
         if (this.preCount !== Muyu.noCount) {
             clearTimeout(this.preCount);
         }
-        this.imgDom.style.height = "450px";
+        this.imgDom.style.height = "350px";
         this.preCount = setTimeout(() => {
-            this.imgDom.style.height = "400px";
+            this.imgDom.style.height = "300px";
         }, Muyu.time) as unknown as number;
     }
 

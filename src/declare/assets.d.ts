@@ -6,3 +6,4 @@ declare module '*.gif'
 declare module '*.bmp'
 declare module '*.tiff'
 declare module "*.m4a"
+declare module "*.mp3"

@@ -1,4 +1,4 @@
-import music from "../asset/audio/audio.m4a";
+import music from "../asset/audio/muyu.mp3";
 import app from "./AppContainer";
 class AudioShow {
     private dom:HTMLAudioElement;
